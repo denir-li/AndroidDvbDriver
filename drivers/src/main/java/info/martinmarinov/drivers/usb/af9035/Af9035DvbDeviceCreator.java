@@ -62,6 +62,7 @@ public class Af9035DvbDeviceCreator implements DvbUsbDevice.Creator {
             new DeviceFilter(DvbUsbIds.USB_VID_AVERMEDIA, DvbUsbIds.USB_PID_AVERMEDIA_A835B_4835, "Avermedia A835B(4835)"),
             new DeviceFilter(DvbUsbIds.USB_VID_AVERMEDIA, DvbUsbIds.USB_PID_AVERMEDIA_TD110, "Avermedia AverTV Volar HD 2 (TD110)"),
             new DeviceFilter(DvbUsbIds.USB_VID_AVERMEDIA, DvbUsbIds.USB_PID_AVERMEDIA_H335, "Avermedia H335"),
+            new DeviceFilter(DvbUsbIds.USB_VID_DEXATEK, DvbUsbIds.USB_PID_DEXATEK_OEO5220, "OEO Design iDTV S Android MobileTV dongle (OEO5220)"),
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_KWORLD_UB499_2T_T09, "Kworld UB499-2T T09"),
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_SVEON_STV22_IT9137, "Sveon STV22 Dual DVB-T HDTV"),
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_CTVDIGDUAL_V2, "Digital Dual TV Receiver CTVDIGDUAL_V2"),

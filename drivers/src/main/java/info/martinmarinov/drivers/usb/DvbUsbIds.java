@@ -125,6 +125,7 @@ public class DvbUsbIds {
     public static final int USB_PID_CONEXANT_D680_DMB = 0x86d6;
     public static final int USB_PID_CREATIX_CTX1921 = 0x1921;
     public static final int USB_PID_DELOCK_USB2_DVBT = 0xb803;
+    public static final int USB_PID_DEXATEK_OEO5220 = 0x110c;
     public static final int USB_PID_DIBCOM_HOOK_DEFAULT = 0x0064;
     public static final int USB_PID_DIBCOM_HOOK_DEFAULT_REENUM = 0x0065;
     public static final int USB_PID_DIBCOM_MOD3000_COLD = 0x0bb8;

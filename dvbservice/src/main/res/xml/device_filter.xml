@@ -57,6 +57,7 @@
     <usb-device vendor-id="0x1b80" product-id="0xe411"/> <!-- Sveon STV22 Dual DVB-T HDTV                    -->
     <usb-device vendor-id="0x1d19" product-id="0x1101"/> <!-- Dexatek DK DVB-T Dongle                        -->
     <usb-device vendor-id="0x1d19" product-id="0x1102"/> <!-- Dexatek DK mini DVB-T Dongle                   -->
+    <usb-device vendor-id="0x1d19" product-id="0x110c"/> <!-- OEO Design iDTV S MobileTV dongle (OEO5220)    -->
     <usb-device vendor-id="0x1d19" product-id="0x1104"/> <!-- MSI DIGIVOX Micro HD                           -->
     <usb-device vendor-id="0x1f4d" product-id="0xa115"/> <!-- EVOLVEO XtraTV stick                           -->
     <usb-device vendor-id="0x1f4d" product-id="0xa803"/> <!-- Crypto ReDi PC 50 A                            -->
