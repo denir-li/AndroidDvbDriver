@@ -8,11 +8,19 @@ The driver is a simplified user space port of a subset of the V4L2 Linux kernel 
 
 ## Supported hardware
 
-This driver version is forked to support the OEO Design iDTV S Android MobileTV dongle (Dexatek OEO5220 - 1d19:110c), which uses the ITE IT9135 tuner chip.
-<img src="https://raw.github.com/denir-li/AndroidDvbDriver/master/graphics/OEO5220.png" width="175" alt="OEO Design iDTV S Android MobileTV dongle"/>
+This driver version is forked to support the following DVB-T devices:
 
-PS. To use the OEO Design iDTV S Android MobileTV dongle on Linux, please add the Product ID information to the `dvb_usb_af9035` module.
+*. Realtek RTL2832U:
+(1) 1164:3284 - UPMOST DVB171 USB DVB-T dongle
+(2) 282d:0608 - FunUV TV1520 USB DVB-T dongle
+
+*. ITE IT9135:
+(1) 1d19:110b - FunUV TV9135 USB DVB-T dongle
+(2) 1d19:110c - OEO Design iDTV S Android MobileTV dongle (Dexatek OEO5220)
+
+PS. To use these USB DVB-T dongles on Linux, please add the Product ID information to the `dvb-usb-rtl28xxu` or `dvb_usb_af9035` kernel module.
 * <https://github.com/torvalds/linux/blob/master/include/media/dvb-usb-ids.h>
+* <https://github.com/torvalds/linux/blob/master/drivers/media/usb/dvb-usb-v2/rtl28xxu.c>
 * <https://github.com/torvalds/linux/blob/master/drivers/media/usb/dvb-usb-v2/af9035.c>
 
 ## Apps that use the driver

@@ -24,6 +24,7 @@ package info.martinmarinov.drivers.usb;
 public class DvbUsbIds {
     /* Vendor IDs */
     public static final int USB_VID_ADSTECH = 0x06e1;
+    public static final int USB_VID_AEROMAX = 0x282d;
     public static final int USB_VID_AFATECH = 0x15a4;
     public static final int USB_VID_ALCOR_MICRO = 0x058f;
     public static final int USB_VID_ALINK = 0x05e3;
@@ -160,6 +161,8 @@ public class DvbUsbIds {
     public static final int USB_PID_E3C_EC168_5 = 0x1002;
     public static final int USB_PID_FREECOM_DVBT = 0x0160;
     public static final int USB_PID_FREECOM_DVBT_2 = 0x0161;
+    public static final int USB_PID_FUNUV_TV1520 = 0x0608;
+    public static final int USB_PID_FUNUV_TV9135 = 0x110b;
     public static final int USB_PID_UNIWILL_STK7700P = 0x6003;
     public static final int USB_PID_GENIUS_TVGO_DVB_T03 = 0x4012;
     public static final int USB_PID_GRANDTEC_DVBT_USB_COLD = 0x0fa0;
@@ -387,6 +390,7 @@ public class DvbUsbIds {
     public static final int USB_PID_YUAN_MC770 = 0x0871;
     public static final int USB_PID_YUAN_STK7700D = 0x1efc;
     public static final int USB_PID_YUAN_STK7700D_2 = 0x1e8c;
+    public static final int USB_PID_UPMOST_DVB171 = 0x3284;
     public static final int USB_PID_DW2102 = 0x2102;
     public static final int USB_PID_DW2104 = 0x2104;
     public static final int USB_PID_DW3101 = 0x3101;

@@ -63,6 +63,8 @@ public class Rtl2xx2DvbDeviceCreator implements DvbUsbDevice.Creator {
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_SVEON_STV21, "Sveon STV21"),
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_SVEON_STV27, "Sveon STV27"),
             new DeviceFilter(DvbUsbIds.USB_VID_KWORLD_2, DvbUsbIds.USB_PID_TURBOX_DTT_2000, "TURBO-X Pure TV Tuner DTT-2000"),
+            new DeviceFilter(DvbUsbIds.USB_VID_YUAN, DvbUsbIds.USB_PID_UPMOST_DVB171, "UPMOST DVB171 USB DVB-T dongle"),
+            new DeviceFilter(DvbUsbIds.USB_VID_AEROMAX, DvbUsbIds.USB_PID_FUNUV_TV1520, "FunUV TV1520 USB DVB-T dongle"),
 
             /* RTL2832P devices: */
             new DeviceFilter(DvbUsbIds.USB_VID_HANFTEK, 0x0131, "Astrometa DVB-T2"),
